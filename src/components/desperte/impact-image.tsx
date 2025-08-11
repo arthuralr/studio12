@@ -2,16 +2,16 @@ import Image from "next/image";
 
 export function ImpactImage() {
   return (
-    <section className="py-20 sm:py-28 bg-[#2B212E]">
-      <div className="container mx-auto px-4 flex justify-center">
+    <section className="bg-[#2B212E] py-20 sm:py-28">
+      <div className="container mx-auto flex justify-center px-4">
         <div className="w-full max-w-4xl">
           <Image
-            src="https://gtiweb.site/imagem-paloma/p5.jpeg"
-            alt="Mulher em conexão com a natureza"
+            src="https://gtiweb.site/imagem-paloma/p10.png"
+            alt="Chamada para ação final"
             width={1200}
             height={800}
-            className="rounded-lg shadow-2xl shadow-[#5C4B99]/20 object-contain w-full h-auto"
-            data-ai-hint="woman nature connection"
+            className="h-auto w-full rounded-lg object-contain shadow-2xl shadow-[#5C4B99]/20"
+            data-ai-hint="final call to action"
           />
         </div>
       </div>
