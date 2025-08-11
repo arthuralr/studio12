@@ -15,7 +15,7 @@ export function Solution() {
           </div>
           <div>
             <Image
-              src="https://images.unsplash.com/photo-1565463482457-4f2445df7487?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBzbWlsaW5nfGVufDB8fHx8MTc1NTEzNTk5NHww&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://gtiweb.site/imagem-paloma/p13.jpeg"
               alt="Casal sorrindo e conectado"
               width={600}
               height={400}
