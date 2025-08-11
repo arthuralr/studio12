@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-center text-white">
       <Image
-        src="https://gtiweb.site/imagem-paloma/p5.jpeg"
+        src="https://gtiweb.site/imagem-paloma/p8.jpeg"
         alt="Mulher feliz em um campo de flores"
         fill
         className="object-cover"
