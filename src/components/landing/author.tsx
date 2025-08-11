@@ -23,7 +23,7 @@ export function Author() {
               </h2>
               <h3 className="text-2xl font-semibold text-primary mb-4">Paloma Martins</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Paloma Martins é atleta de mentalidade, empreendedora e especialista em Psicologia Esportiva. Apaixonada pelo comportamento humano e por alta performance, ela já ajudou mais de 20 mil alunos a mudarem seus hábitos. Paloma acredita que o sucesso vem do 'compromisso diário com a versão mais elevada de si mesmo' e criou este método para provar que qualquer pessoa pode alcançar uma vida com mais propósito e disciplina.
+                Paloma é mentora de reprogramação mental e criadora do método UPLOUD MENTAL. Com mais de uma década dedicada ao estudo da mente humana, ela desenvolveu um sistema único que combina neurociência, psicologia comportamental e técnicas de transformação pessoal.  Através do UPLOUD MENTAL, já ajudou milhares de mulheres a desinstalarem padrões limitantes e criarem uma vida alinhada à sua essência autêntica. Sua missão é ensinar que você tem o poder de reprogramar sua própria realidade.
               </p>
             </div>
           </div>
