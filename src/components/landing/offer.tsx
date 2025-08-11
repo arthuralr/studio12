@@ -52,13 +52,13 @@ export function Offer() {
                   </p>
                   <p className="text-muted-foreground text-sm">ou 4x de R$ 9,83</p>
                 </div>
-                <Link 
+                <Link
                   href="https://kiwify.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={cn(buttonVariants({ size: 'lg', variant: 'accent' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
                 >
-                  SIM, QUERO ME TORNAR UMA PESSOA DISCIPLINADA!
+                  QUERO GARANTIR O MEU ACESSO!
                 </Link>
                 <div className="text-center mt-6">
                   <div className="flex justify-center items-center gap-4 text-muted-foreground mb-4">
