@@ -20,6 +20,8 @@ export default {
         body: ['Raleway', 'sans-serif'],
         headline: ['Playfair Display', 'serif'],
         code: ['monospace'],
+        mystic: ['Cinzel', 'serif'],
+        sans: ['DM Sans', 'sans-serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
