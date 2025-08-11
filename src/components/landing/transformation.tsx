@@ -40,7 +40,7 @@ export function Transformation() {
               {afterItems.map((item, index) => (
                 <li key={index} className="flex items-start">
                   <CheckCircle className="h-6 w-6 text-primary mr-3 mt-0.5 flex-shrink-0" />
-                  <span className="text-foreground font-semibold text-lg">{item}</span>
+                  <span className="text-white font-semibold text-lg">{item}</span>
                 </li>
               ))}
             </ul>
