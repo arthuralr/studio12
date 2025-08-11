@@ -9,7 +9,7 @@ export function Author() {
           <div className="grid md:grid-cols-3 items-center">
             <div className="md:col-span-1">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/project-id.appspot.com/o/e0339d22-1d54-4e2c-b26a-3642a8b3e8a3.png?alt=media&token=e9e6a908-5b1a-4712-841a-72ad563f6a2b"
+                src="https://gtiweb.site/imagem-paloma/p1.jpeg"
                 alt="Paloma Martins"
                 width={400}
                 height={400}
