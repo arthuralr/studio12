@@ -52,7 +52,7 @@ export function Offer() {
             </div>
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1517957423583-4954f2c07a33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjBjb25uZWN0ZWR8ZW58MHx8fHwxNzU0OTY1OTYxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://gtiweb.site/imagem-paloma/p11.jpeg"
                 alt="Casal conectado"
                 width={500}
                 height={700}
