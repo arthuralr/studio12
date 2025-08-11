@@ -43,7 +43,7 @@ export function Offer() {
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ size: 'lg' }), 'w-full bg-vermelho-intenso text-white_conquista hover:bg-vermelho-intenso/90 text-xl font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse rounded-md')}
               >
-                SIM, QUERO ME TORNAR IRRESISTÍVEL AGORA!
+                QUERO ME TORNAR IRRESISTÍVEL
               </Link>
               <div className="flex items-center justify-center gap-2 mt-4 text-grafite/70">
                 <ShieldCheck className="h-4 w-4" />
