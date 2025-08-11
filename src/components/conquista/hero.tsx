@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="relative h-screen min-h-[800px] flex items-center justify-center text-center text-white_conquista">
       <Image
-        src="https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGVzc2JvYXJkfGVufDB8fHx8MTc1NDk2NTc1MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        src="https://gtiweb.site/imagem-paloma/p12.webp"
         alt="Tabuleiro de xadrez simbolizando estratégia"
         layout="fill"
         className="object-cover"
