@@ -5,18 +5,11 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, CreditCard, Lock, ShieldCheck, BadgeCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const features = [
-  'O E-book completo "7 Dias Para o SIM!" (PDF)',
-  "Acesso imediato e vitalício ao material",
-  "Bônus: Lista de aplicativos e ferramentas de organização",
-  "Bônus: Sugestões de leituras para continuar sua jornada",
+const valueStack = [
+  { item: 'E-book "7 Dias Para o SIM!"', value: "R$ 97,00" },
+  { item: "Bônus 1: Lista de Aplicativos e Ferramentas para Organização", value: "R$ 27,00" },
+  { item: "Bônus 2: Guia de Leituras para Manter a Inspiração", value: "R$ 27,00" },
 ];
-
-const paymentMethods = [
-    { name: 'Credit Card', icon: <CreditCard className="h-6 w-6" /> },
-    { name: 'Lock', icon: <Lock className="h-6 w-6" /> },
-    { name: 'ShieldCheck', icon: <ShieldCheck className="h-6 w-6" /> },
-]
 
 export function Offer() {
   return (
@@ -39,20 +32,25 @@ export function Offer() {
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
-                <h3 className="font-bold text-xl text-foreground mb-4">O que você recebe:</h3>
-                <ul className="space-y-3 mb-6">
-                  {features.map((feature, index) => (
-                    <li key={index} className="flex items-start">
-                      <CheckCircle2 className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
-                      <span className="text-muted-foreground">{feature}</span>
-                    </li>
+                <h3 className="font-bold text-xl text-foreground mb-4">Ao investir no seu SIM, você vai receber:</h3>
+                <div className="space-y-3 mb-6 bg-background/30 p-4 rounded-md border">
+                  {valueStack.map((item, index) => (
+                    <div key={index} className="flex justify-between items-center text-muted-foreground">
+                      <div className="flex items-start">
+                        <CheckCircle2 className="h-5 w-5 text-primary mr-3 mt-1 flex-shrink-0" />
+                        <span>{item.item}</span>
+                      </div>
+                      <span className="font-semibold">{item.value}</span>
+                    </div>
                   ))}
-                </ul>
+                </div>
+
                 <div className="text-center bg-background/50 p-6 rounded-lg my-6">
-                  <p className="text-muted-foreground text-lg">De <s className="line-through">R$97,00</s> por apenas:</p>
+                  <p className="text-muted-foreground text-lg">Valor Total: <s className="line-through">R$151,00</s></p>
                   <p className="font-headline text-5xl md:text-6xl font-bold text-primary my-2">
-                    R$ 37,00
+                    Apenas R$ 37,00
                   </p>
+                  <p className="text-muted-foreground text-sm">ou 4x de R$ 9,83</p>
                 </div>
                 <Link 
                   href="https://kiwify.com.br/"
@@ -60,7 +58,7 @@ export function Offer() {
                   rel="noopener noreferrer"
                   className={cn(buttonVariants({ size: 'lg', variant: 'default' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
                 >
-                  SIM, EU QUERO MEU E-BOOK AGORA!
+                  SIM, QUERO ME TORNAR UMA PESSOA DISCIPLINADA!
                 </Link>
                 <div className="text-center mt-6">
                   <div className="flex justify-center items-center gap-4 text-muted-foreground mb-4">

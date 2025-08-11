@@ -26,7 +26,7 @@ export function Hero() {
           href="#oferta"
           className={cn(buttonVariants({ size: 'lg', variant: 'accent' }), 'text-lg font-bold shadow-lg transition-transform duration-300 hover:scale-105')}
         >
-          QUERO TRANSFORMAR MINHAS PROMESSAS EM REALIDADE
+          QUERO COMEÇAR MINHA TRANSFORMAÇÃO DE 7 DIAS
         </Link>
         <p className="mt-4 text-sm text-white/80">
           Oferta especial por apenas R$37,00.
