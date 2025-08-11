@@ -9,7 +9,7 @@ export function Author() {
           <div className="grid md:grid-cols-3 items-center">
             <div className="md:col-span-1">
               <Image
-                src="https://gtiweb.site/imagem-paloma/p11.jpeg"
+                src="https://gtiweb.site/imagem-paloma/p1.jpeg"
                 alt="Paloma Martins, especialista em reprogramação mental"
                 width={400}
                 height={400}
