@@ -15,7 +15,7 @@ export function Frustration() {
           </div>
           <div className="order-1 md:order-2">
             <Image
-              src="https://images.unsplash.com/photo-1599554378822-2330a5444342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYXBweSUyMHdvbWFufGVufDB8fHx8MTc1NTI5OTUzN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              src="https://images.unsplash.com/photo-1666460866600-e593be225233?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxNnx8c2F0aXNmYSVDMyVBNyVDMyVBM298ZW58MHx8fHwxNzU0OTA3OTY4fDA&ixlib=rb-4.1.0&q=80&w=1080"
               alt="Mulher feliz e realizada"
               width={600}
               height={401}
