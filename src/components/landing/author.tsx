@@ -9,7 +9,7 @@ export function Author() {
           <div className="grid md:grid-cols-3 items-center">
             <div className="md:col-span-1">
               <Image
-                src="https://placehold.co/400x400.png"
+                src="https://firebasestorage.googleapis.com/v0/b/project-id.appspot.com/o/189e4c5f-a36c-4866-9e12-45e0503f5729.png?alt=media"
                 alt="Paloma Martins"
                 width={400}
                 height={400}
