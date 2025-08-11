@@ -34,7 +34,7 @@ export function Transformation() {
           </div>
           
           {/* Depois */}
-          <div className="p-8 border-2 border-primary/30 rounded-lg bg-card/80 shadow-lg backdrop-blur-sm">
+          <div className="p-8 border-2 border-primary/30 rounded-lg bg-gradient-to-br from-primary/20 via-primary/5 to-transparent shadow-lg backdrop-blur-sm">
             <h3 className="font-headline text-2xl font-bold text-primary mb-6 text-center">Como você vai se sentir em 7 dias</h3>
              <ul className="space-y-4">
               {afterItems.map((item, index) => (
