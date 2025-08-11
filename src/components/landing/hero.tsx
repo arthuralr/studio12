@@ -7,12 +7,12 @@ export function Hero() {
   return (
     <section className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-center text-white">
       <Image
-        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhY2hpZXZlbWVudHxlbnwwfHx8fDE3NTU3MjIwMTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
-        alt="Mulher celebrando uma conquista ao ar livre"
+        src="https://images.unsplash.com/photo-1502324733363-95d6a2e46305?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmZW1pbmluZSUyMGVtcG93ZXJtZW50fGVufDB8fHx8MTc1NTc2NzI3N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        alt="Mulher feliz em um campo de flores"
         fill
         className="object-cover"
         priority
-        data-ai-hint="woman achievement"
+        data-ai-hint="woman flowers"
       />
       <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 container mx-auto px-4">
