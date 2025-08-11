@@ -56,7 +56,7 @@ export function Offer() {
                   href="https://kiwify.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={cn(buttonVariants({ size: 'lg', variant: 'default' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
+                  className={cn(buttonVariants({ size: 'lg', variant: 'accent' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
                 >
                   SIM, QUERO ME TORNAR UMA PESSOA DISCIPLINADA!
                 </Link>
