@@ -46,8 +46,14 @@ export function Offer() {
                 QUERO ME TORNAR IRRESISTÍVEL
               </Link>
               <div className="flex items-center justify-center gap-2 mt-4 text-grafite/70">
-                <ShieldCheck className="h-4 w-4" />
-                <span className="font-body_conquista text-sm">Domine o jogo ou seu dinheiro de volta. Garantia de 7 dias.</span>
+                <Image
+                  src="https://gtiweb.site/imagem-paloma/p10.png"
+                  alt="Garantia de 7 dias"
+                  width={500}
+                  height={100}
+                  className="h-auto w-full max-w-sm"
+                  data-ai-hint="guarantee badge"
+                />
               </div>
             </div>
             <div>
