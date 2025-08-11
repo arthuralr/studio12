@@ -20,7 +20,7 @@ export function Hero() {
           Há uma força silenciosa dentro de você que nunca deixou de pulsar.
         </h1>
         <p className="text-lg md:text-xl max-w-3xl mx-auto mb-10 text-white_lunar/90 font-sans">
-          Este é um convite para você silenciar o mundo, se reconectar com sua intuição e lembrar da mulher cíclica, sábia e poderosa que já habita em você.
+          Este é um convite para você silenciar o mundo, se reconectar com sua intuição e lembrar da mulher cíclika, sábia e poderosa que já habita em você.
         </p>
         <Link
           href="#oferta"
