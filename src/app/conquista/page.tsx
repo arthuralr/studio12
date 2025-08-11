@@ -5,6 +5,7 @@ import { Solution } from "@/components/conquista/solution";
 import { Method } from "@/components/conquista/method";
 import { Offer } from "@/components/conquista/offer";
 import { Faq } from "@/components/conquista/faq";
+import { Author } from "@/components/conquista/author";
 import { Footer } from "@/components/conquista/footer";
 import './theme.css';
 
@@ -19,6 +20,7 @@ export default function ConquistaPage() {
         <Method />
         <Offer />
         <Faq />
+        <Author />
       </main>
       <Footer />
     </div>
