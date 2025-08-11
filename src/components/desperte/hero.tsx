@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <section className="relative h-screen min-h-[700px] flex items-center justify-center text-center text-white_lunar">
       <Image
-        src="https://gtiweb.site/imagem-paloma/p6.jpeg"
+        src="https://gtiweb.site/imagem-paloma/p5.jpeg"
         alt="Mulher meditando em meio à energia cósmica"
         fill
         className="object-cover"
