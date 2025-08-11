@@ -26,7 +26,7 @@ export function Offer() {
           <h2 className="font-headline text-3xl md:text-4xl font-bold text-center text-foreground mb-6">
             Dê o primeiro passo para a sua nova vida HOJE.
           </h2>
-          <Card className="shadow-2xl overflow-hidden">
+          <Card className="shadow-2xl overflow-hidden bg-card/80 backdrop-blur-sm">
             <div className="grid md:grid-cols-5">
               <div className="md:col-span-2 hidden md:block">
                 <Image
@@ -48,7 +48,7 @@ export function Offer() {
                     </li>
                   ))}
                 </ul>
-                <div className="text-center bg-accent/50 p-6 rounded-lg my-6">
+                <div className="text-center bg-background/50 p-6 rounded-lg my-6">
                   <p className="text-muted-foreground text-lg">De <s className="line-through">R$97,00</s> por apenas:</p>
                   <p className="font-headline text-5xl md:text-6xl font-bold text-primary my-2">
                     R$ 37,00
@@ -58,7 +58,7 @@ export function Offer() {
                   href="https://kiwify.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={cn(buttonVariants({ size: 'lg' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
+                  className={cn(buttonVariants({ size: 'lg', variant: 'default' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
                 >
                   SIM, EU QUERO MEU E-BOOK AGORA!
                 </Link>

@@ -16,12 +16,12 @@ const afterItems = [
 
 export function Transformation() {
   return (
-    <section className="py-16 sm:py-24 bg-background animate-fade-in-up">
+    <section className="py-16 sm:py-24 bg-gradient-to-br from-background to-secondary animate-fade-in-up">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           
           {/* Antes */}
-          <div className="p-8 border-2 border-destructive/20 rounded-lg bg-card">
+          <div className="p-8 border-2 border-destructive/20 rounded-lg bg-card/80 backdrop-blur-sm">
             <h3 className="font-headline text-2xl font-bold text-destructive mb-6 text-center">Como você se sente hoje</h3>
             <ul className="space-y-4">
               {beforeItems.map((item, index) => (
@@ -34,7 +34,7 @@ export function Transformation() {
           </div>
           
           {/* Depois */}
-          <div className="p-8 border-2 border-primary/30 rounded-lg bg-card shadow-lg">
+          <div className="p-8 border-2 border-primary/30 rounded-lg bg-card/80 shadow-lg backdrop-blur-sm">
             <h3 className="font-headline text-2xl font-bold text-primary mb-6 text-center">Como você vai se sentir em 7 dias</h3>
              <ul className="space-y-4">
               {afterItems.map((item, index) => (

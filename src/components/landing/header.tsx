@@ -11,7 +11,7 @@ export function Header() {
         </Link>
         <Link 
           href="#oferta"
-          className={cn(buttonVariants({ variant: 'default' }), 'hidden sm:flex shadow-sm')}
+          className={cn(buttonVariants({ variant: 'accent' }), 'hidden sm:flex shadow-sm')}
         >
           QUERO MEU E-BOOK
         </Link>

@@ -24,7 +24,7 @@ export function Hero() {
         </p>
         <Link
           href="#oferta"
-          className={cn(buttonVariants({ size: 'lg' }), 'text-lg font-bold shadow-lg transition-transform duration-300 hover:scale-105')}
+          className={cn(buttonVariants({ size: 'lg', variant: 'accent' }), 'text-lg font-bold shadow-lg transition-transform duration-300 hover:scale-105')}
         >
           QUERO TRANSFORMAR MINHAS PROMESSAS EM REALIDADE
         </Link>
