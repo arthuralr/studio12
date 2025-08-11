@@ -8,7 +8,7 @@ export function SneakPeek() {
           Veja a beleza que te espera
         </h2>
         <Image
-          src="https://gtiweb.site/imagem-paloma/mockup-desperte.png"
+          src="https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8bXVsaGVyfGVufDB8fHx8MTc1NDkwMzE2MHww&ixlib=rb-4.1.0&q=80&w=1080"
           alt="Mockup do e-book Desperte o Sagrado Feminino"
           width={1000}
           height={600}
