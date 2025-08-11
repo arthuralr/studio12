@@ -7,7 +7,6 @@ import { Portals } from "@/components/desperte/portals";
 import { SneakPeek } from "@/components/desperte/sneak-peek";
 import { TheSolution } from "@/components/desperte/solution";
 import { Footer } from "@/components/desperte/footer";
-import { ImpactImage } from "@/components/desperte/impact-image";
 
 export default function DespertePage() {
   return (
@@ -20,7 +19,6 @@ export default function DespertePage() {
         <Portals />
         <SneakPeek />
         <Offer />
-        <ImpactImage />
         <Author />
       </main>
       <Footer />
