@@ -30,12 +30,12 @@ export function Offer() {
             <div className="grid md:grid-cols-5">
               <div className="md:col-span-2 hidden md:block">
                 <Image
-                  src="https://images.unsplash.com/photo-1559677437-62c20d42dd27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZWxpY2lkYWRlfGVufDB8fHx8MTc1NDkwNzg4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://images.unsplash.com/photo-1609895720459-394a6a8c99ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxlYm9va3xlbnwwfHx8fDE3NTQ5MDgxNjR8MA&ixlib=rb-4.1.0&q=80&w=1080"
                   alt="Mockup 3D do E-book 7 Dias Para o SIM!"
                   width={400}
                   height={500}
                   className="w-full h-full object-cover"
-                  data-ai-hint="happy woman"
+                  data-ai-hint="ebook mockup"
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
