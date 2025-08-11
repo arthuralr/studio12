@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button, buttonVariants } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { CheckCircle2, ShieldCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -49,12 +50,15 @@ export function Offer() {
                 SIM, QUERO DESPERTAR MINHA ESSÊNCIA
               </Link>
               <div className="text-center mt-8">
-                <div className="flex flex-col items-center gap-3 text-white_lunar/80 border-t border-white_lunar/10 pt-6 mt-6">
-                   <ShieldCheck className="h-10 w-10 text-[#5C4B99]" />
-                  <h4 className="font-semibold text-white">Garantia Incondicional de 7 Dias</h4>
-                  <p className="text-xs text-white_lunar/70 max-w-sm">
-                    Seu reencontro é garantido ou seu dinheiro de volta. Se por qualquer motivo você não se conectar com este guia, basta me enviar um e-mail em até 7 dias e eu devolvo 100% do seu investimento.
-                  </p>
+                <div className="flex flex-col items-center gap-3 text-white_lunar/80">
+                   <Image 
+                    src="https://gtiweb.site/imagem-paloma/p10.png"
+                    alt="Garantia de 7 dias"
+                    width={500}
+                    height={100}
+                    className="h-auto w-full max-w-sm"
+                    data-ai-hint="guarantee badge"
+                   />
                 </div>
               </div>
 

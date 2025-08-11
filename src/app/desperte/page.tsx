@@ -8,7 +8,6 @@ import { SneakPeek } from "@/components/desperte/sneak-peek";
 import { TheSolution } from "@/components/desperte/solution";
 import { Footer } from "@/components/desperte/footer";
 import { Faq } from "@/components/desperte/faq";
-import { ImpactImage } from "@/components/desperte/impact-image";
 
 export default function DespertePage() {
   return (
@@ -23,7 +22,6 @@ export default function DespertePage() {
         <Offer />
         <Author />
         <Faq />
-        <ImpactImage />
       </main>
       <Footer />
     </div>
