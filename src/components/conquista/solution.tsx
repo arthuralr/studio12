@@ -15,7 +15,7 @@ export function Solution() {
           </div>
           <div>
             <Image
-              src="https://gtiweb.site/imagem-paloma/p13.jpeg"
+              src="https://gtiweb.site/imagem-paloma/p14.avif"
               alt="Casal sorrindo e conectado"
               width={600}
               height={400}
