@@ -15,10 +15,10 @@ export function Frustration() {
           </div>
           <div className="order-1 md:order-2">
             <Image
-              src="https://placehold.co/600x400.png"
+              src="https://placehold.co/600x401.png"
               alt="Mulher pensativa olhando pela janela"
               width={600}
-              height={400}
+              height={401}
               className="rounded-lg shadow-xl w-full"
               data-ai-hint="woman window"
             />
