@@ -22,6 +22,8 @@ export default {
         code: ['monospace'],
         mystic: ['Cinzel', 'serif'],
         sans: ['DM Sans', 'sans-serif'],
+        headline_conquista: ['Montserrat', 'sans-serif'],
+        body_conquista: ['Garamond', 'serif'],
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -64,6 +66,10 @@ export default {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
+        grafite: 'hsl(var(--grafite))',
+        'vermelho-intenso': 'hsl(var(--vermelho-intenso))',
+        white_conquista: 'hsl(var(--white_conquista))',
+        'cinza-medio': 'hsl(var(--cinza-medio))',
       },
       borderRadius: {
         lg: 'var(--radius)',
