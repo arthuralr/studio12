@@ -19,7 +19,7 @@ export function Content() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {days.map((item, index) => (
-            <Card key={item.day} className={`transform transition-transform duration-300 hover:scale-105 hover:shadow-xl ${index === days.length -1 ? 'lg:col-start-2 xl:col-start-auto' : ''}`}>
+            <Card key={item.day} className={`transform transition-transform duration-300 hover:scale-105 hover:shadow-xl ${index === days.length -1 ? 'lg:col-start-2 xl:col-start-auto' : ''} animate-fade-in-up`} style={{ animationDelay: `${index * 150}ms`, animationFillMode: 'backwards' }}>
               <CardHeader>
                 <CardTitle className="text-primary font-bold">Dia {item.day}</CardTitle>
                 <h3 className="font-headline text-xl text-foreground pt-2">{item.title}</h3>

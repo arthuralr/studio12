@@ -2,6 +2,7 @@ import { Header } from '@/components/landing/header';
 import { Hero } from '@/components/landing/hero';
 import { Frustration } from '@/components/landing/frustration';
 import { Solution } from '@/components/landing/solution';
+import { Transformation } from '@/components/landing/transformation';
 import { Content } from '@/components/landing/content';
 import { Author } from '@/components/landing/author';
 import { Offer } from '@/components/landing/offer';
@@ -16,6 +17,7 @@ export default function Home() {
         <Hero />
         <Frustration />
         <Solution />
+        <Transformation />
         <Content />
         <Author />
         <Offer />

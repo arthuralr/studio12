@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle2, CreditCard, Lock, ShieldCheck } from "lucide-react";
+import { CheckCircle2, CreditCard, Lock, ShieldCheck, BadgeCheck } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const features = [
@@ -31,11 +31,11 @@ export function Offer() {
               <div className="md:col-span-2 hidden md:block">
                 <Image
                   src="https://placehold.co/400x500.png"
-                  alt="Capa do E-book 7 Dias Para o SIM!"
+                  alt="Mockup 3D do E-book 7 Dias Para o SIM!"
                   width={400}
                   height={500}
                   className="w-full h-full object-cover"
-                  data-ai-hint="ebook cover"
+                  data-ai-hint="ebook mockup 3d"
                 />
               </div>
               <div className="md:col-span-3 p-8 md:p-12 flex flex-col justify-center">
@@ -58,16 +58,24 @@ export function Offer() {
                   href="https://kiwify.com.br/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={cn(buttonVariants({ size: 'lg' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg')}
+                  className={cn(buttonVariants({ size: 'lg' }), 'w-full text-lg font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse')}
                 >
                   SIM, EU QUERO MEU E-BOOK AGORA!
                 </Link>
                 <div className="text-center mt-6">
-                  <div className="flex justify-center items-center gap-4 text-muted-foreground mb-2">
+                  <div className="flex justify-center items-center gap-4 text-muted-foreground mb-4">
                     <Lock className="h-5 w-5"/>
                     <p className="text-sm">Ambiente de pagamento 100% seguro pela Kiwify.</p>
                   </div>
-                  <p className="text-xs text-muted-foreground/80">Acesso enviado imediatamente para o seu e-mail.</p>
+                  
+                  <div className="flex flex-col items-center gap-3 text-muted-foreground border-t border-border pt-6 mt-6">
+                     <BadgeCheck className="h-10 w-10 text-primary/80" />
+                    <h4 className="font-semibold text-foreground">Garantia Incondicional de 7 Dias</h4>
+                    <p className="text-xs text-muted-foreground/90 max-w-sm">
+                      Se por qualquer motivo você achar que este e-book não é para você, basta me enviar um e-mail em até 7 dias e eu devolvo 100% do seu dinheiro. Simples assim, sem perguntas.
+                    </p>
+                  </div>
+
                 </div>
               </div>
             </div>
