@@ -15,12 +15,12 @@ export function TheSolution() {
           </div>
           <div>
             <Image
-              src="https://gtiweb.site/imagem-paloma/p11.jpeg"
-              alt="Cartas de oráculo e cristais"
+              src="https://gtiweb.site/imagem-paloma/p9.webp"
+              alt="Mulher em um ritual com velas e cristais"
               width={600}
               height={400}
               className="rounded-lg shadow-2xl shadow-[#5C4B99]/20 w-full"
-              data-ai-hint="oracle cards crystals"
+              data-ai-hint="ritual candles crystals"
             />
           </div>
         </div>
