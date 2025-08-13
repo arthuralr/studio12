@@ -38,7 +38,7 @@ export function Offer() {
                 </p>
               </div>
               <Link
-                href="https://kiwify.com.br/"
+                href="https://pay.kiwify.com.br/XFRakKp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ size: 'lg' }), 'w-full bg-vermelho-intenso text-white_conquista hover:bg-vermelho-intenso/90 text-xl font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse rounded-md')}
