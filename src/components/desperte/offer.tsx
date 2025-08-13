@@ -42,7 +42,7 @@ export function Offer() {
                 <p className="text-[#F4F4F7]/80 text-sm">ou 5x de R$ 10,02</p>
               </div>
               <Link
-                href="https://kiwify.com.br/"
+                href="https://pay.kiwify.com.br/lNZj6Ai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ size: 'lg' }), 'w-full bg-[#5C4B99] text-white_lunar hover:bg-[#4a3b80] text-xl font-bold py-8 transition-transform duration-300 hover:scale-105 shadow-lg animate-pulse rounded-full')}
